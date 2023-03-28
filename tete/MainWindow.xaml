@@ -1,0 +1,25 @@
+﻿<Window x:Class="tete.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tete"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="183*"/>
+            <RowDefinition Height="13*"/>
+        </Grid.RowDefinitions>
+        <Rectangle  Fill="#FF30A0FF"></Rectangle>
+
+        <!-- вставляется после texrblok Style="{StaticResource MyStule}"-->
+        <TextBlock  x:Name="TitalePage">Школа языков "Леарн"</TextBlock>
+        <Rectangle Grid.Row="2" Fill="#FF30A0FF"></Rectangle>
+        <Button  x:Name="BackBtn"  HorizontalAlignment="Right" Margin="110 0 " Click="BackBtn_Click" >Назад</Button>
+        <Button x:Name="ExitBtn"  HorizontalAlignment="Right" Margin="10 0 " Click="ExitBtn_Click">Выход</Button>
+        <Frame Grid.Row="1" x:Name="MyFrame" NavigationUIVisibility="Hidden"></Frame>
+
+    </Grid>
+</Window>

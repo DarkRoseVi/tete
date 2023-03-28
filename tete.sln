@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tete", "tete\tete.csproj", "{3F0157EB-8B3C-4C71-930B-2CB14741E927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Новая папка1", "Новая папка1", "{216FAC38-83F2-4B21-8C25-10E855B582B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teteTests", "teteTests\teteTests.csproj", "{97AD746C-6D00-45A7-A408-9184461AE533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F0157EB-8B3C-4C71-930B-2CB14741E927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0157EB-8B3C-4C71-930B-2CB14741E927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0157EB-8B3C-4C71-930B-2CB14741E927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0157EB-8B3C-4C71-930B-2CB14741E927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AD746C-6D00-45A7-A408-9184461AE533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AD746C-6D00-45A7-A408-9184461AE533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AD746C-6D00-45A7-A408-9184461AE533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AD746C-6D00-45A7-A408-9184461AE533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {254B2EA6-B7D7-403F-829C-6072FDE19255}
+	EndGlobalSection
+EndGlobal
