@@ -109,6 +109,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MYPAGE\Edit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MYPAGE\Listus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MYPAGE\RegPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -117,6 +125,12 @@
   <ItemGroup>
     <Compile Include="MYPAGE\AuthPage.xaml.cs">
       <DependentUpon>AuthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MYPAGE\Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MYPAGE\Listus.xaml.cs">
+      <DependentUpon>Listus.xaml</DependentUpon>
     </Compile>
     <Compile Include="MYPAGE\RegPage.xaml.cs">
       <DependentUpon>RegPage.xaml</DependentUpon>

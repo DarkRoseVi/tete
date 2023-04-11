@@ -14,9 +14,9 @@
             <TextBlock Margin="5">Login</TextBlock>
             <TextBox Height="20" Margin="5" Width="150" x:Name="LoginTb"></TextBox>
             <TextBlock Margin="5">Password</TextBlock>
-            <PasswordBox Height="20" Margin="5" Width="150" x:Name="PassworTb"></PasswordBox>
+            <TextBox Height="20" Margin="5" Width="150" x:Name="PassworTb"></TextBox>
             <StackPanel Orientation="Horizontal">
-                <Button x:Name="EnterBtn" Height="20" Margin="5" Width="100" Content="Вход" ></Button>
+                <Button x:Name="EnterBtn" Height="20" Margin="5" Width="100" Content="Вход" Click="EnterBtn_Click" ></Button>
                 <Button x:Name="RegBtn" Height="20" Margin="5" Width="100" Content="Регистрация" Click="RegBtn_Click"></Button>
 
             </StackPanel>

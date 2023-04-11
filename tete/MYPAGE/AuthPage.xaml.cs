@@ -47,5 +47,14 @@ namespace tete.MYPAGE
             //}
             //else MessageBox.Show("Заполните поля");
         }
+
+        private void EnterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Navigation.AutoUser = Bdconnect.db.User.ToList().Find(x => x.Login == LoginTb.Text && x.Password == PassworTb.Text);
+            if (Navigation.AutoUser == null)
+                MessageBox.Show("такого пользователя не существует ");
+            else
+                Navigation.NextPage(new Nav("", new Listus()));
+        }
     }
 }

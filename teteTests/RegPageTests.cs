@@ -12,11 +12,10 @@ namespace tete.MYPAGE.Tests
 {
     [TestClass()]
     public class RegPageTests
-    {public static testimgEntities db = new testimgEntities();
+    {public static testimgEntities db = new testimgEntities();                                                                                         
         [TestMethod()]
         public void RegPageTest()
         {
-           
             var us = Bdconnect.db.User.Where(u => u.Login == "1111").FirstOrDefault();
             Assert.IsTrue(us != null);
         }
